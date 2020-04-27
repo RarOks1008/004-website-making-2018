@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>How to - WebSite Making 2018</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="keywords" content="main, images, make, javascript"/>
+		<meta name="description" content="How to make a website in 2018. Main page with all examples."/>
+		<meta name="author" content="Nikola Nedeljkovic"/>
+		<meta name="copyright" content="RarOks 1008 Entertainment @ 2018"/>
+		<meta name="abstract" content="How To - Website Maker 2018"/>
+		<meta name="robots" content="index,follow"/>
+		<link rel="shortcut icon" href="../favicon.ico"/>
+  </head>
+  <body>
+    <div class="nav-holder">
+      <div class="logo-50h"></div>
+      <nav>
+        <ul>
+          <li>
+            <a href="main.html">Main Menu</a>
+            <ul class="fall_down">
+              <li><a href="main.html#1">Welcome Screen</a></li>
+              <li><a href="main.html#2">Image Carousel</a></li>
+              <li><a href="main.html#3">Text Animations</a></li>
+              <li><a href="main.html#4">Complex sign-up</a></li>
+              <li><a href="main.html#5">User preferences</a></li>
+              <li><a href="main.html#6">Footer</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="author.html">Author</a>
+            <ul class="fall_down">
+              <li><a href="author.html#1">About Author</a></li>
+              <li><a href="author.html#2">Author CV</a></li>
+              <li><a href="author.html#3">Footer</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+      <a id="1"></a>
+      <div class="welcome_screen">
+        <h1>Making a website in 2018</h1>
+        <p>Making a website in 2018 has never been easier. With a few simple clicks, and with a lot of prebuild libraries we can make a fully functional responsive website in a very small time.</p>
+      </div>
+      <a id="2"></a>
+      <div class="separator"></div>
+      <div class="carousel">
+        <img src="../assets/images/carousel-images/panda.jpeg" alt="Panda" class="carousel_image active_image" width="400px" height="300px"/>
+        <img src="../assets/images/carousel-images/seal.jpg" alt="Seal" class="carousel_image" width="400px" height="300px"/>
+        <img src="../assets/images/carousel-images/turtle.jpg" alt="Turtle" class="carousel_image" width="400px" height="300px"/>
+        <img src="../assets/images/carousel-images/panda_endanger.jpg" alt="Reason panda is endangered" class="carousel_image" width="400px" height="300px"/>
+        <img src="../assets/images/carousel-images/seal_wire.jpg" alt="Reason seals are endangered" class="carousel_image" width="400px" height="300px"/>
+        <img src="../assets/images/carousel-images/turtle_plastic.jpg" alt="Reason turtles are endangered" class="carousel_image" width="400px" height="300px"/>
+      </div>
+      <p class="carousel_text">Add some community problem, and share your solution to it. Try and give 0.001% percent of your earnings for the cause, and 25% for the ad for what you have done.</p>
+      <a id="3"></a>
+      <div class="separator"></div>
+      <div class="text_animation">
+        <input type="button" id="animation_button" value="Show Text" class="animation_starter"/>
+        <p class="text_animation_holder"></p>
+      </div>
+      <a id="4"></a>
+      <div class="complex_sign_up">
+          <h2 class="sign_up_head">Sign Up</h2>
+          <input type="text" name="complex_username" placeholder="Input ussername" id="complex_username_check" class="complex_input_button"/>
+          <input type="password" name="complex_password" placeholder="* * * * * *" id="complex_password_check" class="complex_input_button"/>
+          <p class="complex_warning"></p>
+          <input type="button" value="Submit" id="complex_button_submit" class="complex_submit_button"/>
+          <p class="sign_up_recomendation">Use some very hard sign up methods, so the client thinks he will be safe.</p>
+      </div>
+      <div class="separator"></div>
+      <a id="5"></a>
+      <div class="user_preferences">
+          <h2 class="preferences_head">Your previous preferenes:</h2>
+      </div>
+      <div class="separator"></div>
+    </div>
+    <a id="6"></a>
+    <div class="footer">
+      <div class="copyright">
+        <p>&copy; Nikola Nedeljkovic 2018 &nbsp;&nbsp;&nbsp; @ ICT</p>
+      </div>
+      <div class="contact">
+        <div class="info">
+          <p>Nikola Nedeljkovic</p>
+          <p>nikola.nedeljkovic.2.17&#64;ict.edu.rs</p>
+          <p>+381/64-45-71-380</p>
+        </div>
+        <div class="social_media">
+          <ul id="dynamic"></ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../assets/js/3rd/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/3rd/jquery.smooth-scroll.js"></script>
+    <script type="text/javascript" src="../assets/js/main_controller.js"></script>
+  </body>
+</html>
